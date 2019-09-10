@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textAppearanceLarge">@style/largetext</item>
+        <item name="buttonStyle">@style/ColoredButtonStyle</item>
+        <item name="android:windowBackground">@color/grey</item>
+        <item name="vpiCirclePageIndicatorStyle">@style/CustomCirclePageIndicator</item>
+        <item name="colorAccent">@color/schemethree_darkerteal</item>
+
+        <item name="explicitHitColor">@color/schemethree_teal</item>
+        <item name="implicitHitColor">@color/grey_300</item>
+        <item name="missColor">@color/schemethree_darkerred</item>
+        <item name="goldColor">@color/schemefour_yellow</item>
+        <item name="lightermissColor">@color/schemefive_red</item>
+
+        <!--HistoryChart stuff-->
+        <item name="spark_SparkViewStyle">@style/MySparkViewStyle</item>
+        <item name="highContrastReverseTextColor">@color/basewhite</item>
+        <item name="mediumContrastReverseTextColor">@color/grey_500</item>
+        <item name="lowContrastReverseTextColor">@color/grey_700</item>
+
+        <item name="highContrastTextColor">@color/grey_800</item>
+        <item name="mediumContrastTextColor">@color/grey_500</item>
+        <item name="lowContrastTextColor">@color/grey_300</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@color/basewhite</item>
+        <item name="android:background">@color/schemethree_darkerteal</item>
+        <item name="tabIndicatorColor">@color/basewhite</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MySparkViewStyle" parent="@style/spark_SparkView">
+        <item name="spark_lineWidth">2dp</item>
+        <item name="spark_cornerRadius">2dp</item>
+        <item name="spark_fill">false</item>
+        <item name="spark_scrubEnabled">true</item>
+        <item name="spark_animateChanges">true</item>
+    </style>
+
+    <!--Text Stuff-->
+    <style name="largetext" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="primarytext" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="secondarytext" parent="@android:style/TextAppearance.Small"/>
+    <style name="primarytext_small" parent="TextAppearance.AppCompat.Body1"/>
+    <style name="secondarytext_small" parent="TextAppearance.AppCompat.Caption"/>
+
+    <!--Viewpagerindicator-->
+    <style name="CustomCirclePageIndicator">
+        <item name="strokeColor">#FF000000</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="radius">3dp</item>
+        <item name="centered">true</item>
+    </style>
+
+    <style name="ColoredButtonStyle" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

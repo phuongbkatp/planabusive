@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="transparent" type="color">#00FFFFFF</item>
+    <item name="backgroundgray" type="color">#fff3f3f3</item>
+    <item name="grey" type="color">#E3E3E3</item>
+    <item name="grey_lighter" type="color">#EEEEEE</item>
+    <item name="grey_darker" type="color">#D4D4D4</item>525353
+    <item name="grey_verydark" type="color">#525353</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="lightgreen" type="color">#E8F5E9</item>
+    <item name="basewhite" type="color">#f9f9f9</item>
+    <item name="black" type="color">#000000</item>
+    <item name="flat_red" type="color">#F44336</item>
+
+    <!--Experimental colors for msg background-->
+    <item name="schemeone_mediumblue" type="color">#28546C</item>
+
+    <item name="schemethree_red" type="color">#F7A3A2</item>
+    <item name="schemethree_teal" type="color">#71BACC</item>
+    <item name="schemethree_darkerred" type="color">#E91818</item>
+    <item name="schemethree_darkerteal" type="color">#2796B2</item>
+
+    <item name="schemefour_yellow" type="color">#FFDB8A</item>
+    <item name="schemefour_red" type="color">#FF988A</item>
+    <item name="schemefour_teal" type="color">#71BACC</item>
+    <item name="schemefour_darkerred" type="color">#FF7A68</item>
+    <item name="schemefour_darkerteal" type="color">#499AAD</item>
+    <item name="schemefour_lighterteal" type="color">#A1D8E5</item>
+
+    <item name="schemefive_red" type="color">#E15256</item>
+
+    <item name="flat_blue" type="color">#3498db</item>
+
+
+    <item name="pal_5_red" type="color">#FF7676</item>
+    <item name="pal_5_blue" type="color">#53BAF9</item>
+    <item name="pal_5_gold" type="color">#FFFAA6</item>
+    <item name="pal_5_baselight" type="color">#F8FCFF</item>
+
+
+    <item name="robinhood_green" type="color">#21CE99</item>
+    <item name="robinhood_gray" type="color">#303032</item>
+
+    <!--Android  Colors -->
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_750">#525252</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_850">#303030</color>
+    <color name="grey_875">#282828</color>
+    <color name="grey_900">#212121</color>
+    <color name="grey_950">#101010</color>
+
+    <color name="app_icon_yellow">#FDF7D5</color>
+</resources>

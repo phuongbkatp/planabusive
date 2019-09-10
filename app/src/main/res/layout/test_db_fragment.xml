@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/test_db_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simulate midnight"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Last Day"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/receivertestadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Add Message"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/addday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Add Day"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/startVisit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toggle Visit"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/showStartScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toggle Visit"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/reinitgeofences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+</LinearLayout>

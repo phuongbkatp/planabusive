@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <android.support.v7.widget.CardView
+        android:id="@+id/dailystatscard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:elevation="2dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/title_name"
+                android:text="This Week"
+                android:gravity="center"
+                android:layout_marginBottom="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- FIRST STAT ROW -->
+            <RelativeLayout
+                android:id="@+id/stat_card_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+                <TextView
+                    android:id="@+id/stat_text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stat One"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:textSize="24sp"
+                    />
+
+                <com.pipit.agc.views.CircleView
+                    android:id="@+id/stat_circle_1"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textStyle="bold"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:elevation="4dp" />
+
+                <TextView
+                    android:id="@+id/stat_subtext_1"
+                    android:layout_alignLeft="@id/stat_text_1"
+                    android:layout_below="@id/stat_text_1"
+                    android:text="Heating up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <!-- SECOND STAT ROW -->
+            <RelativeLayout
+                android:id="@+id/stat_card_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+                <TextView
+                    android:id="@+id/stat_text_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Stat Two"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:textSize="24sp"
+                    />
+                <com.pipit.agc.views.CircleView
+                    android:id="@+id/stat_circle_2"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textStyle="bold"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:elevation="4dp" />
+                <TextView
+                    android:id="@+id/stat_subtext_2"
+                    android:layout_alignLeft="@id/stat_text_2"
+                    android:layout_below="@id/stat_text_2"
+                    android:text="When I was a wee lad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

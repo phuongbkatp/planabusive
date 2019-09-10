@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <android.support.v7.widget.CardView
+        android:id="@+id/dailystatscard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:elevation="2dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            >
+            <TextView
+                android:id="@+id/title_name"
+                android:text="This Week"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.robinhood.spark.SparkView
+                android:id="@+id/sparkview"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/title_name"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="40dp"
+                app:spark_scrubEnabled="true"
+                app:spark_cornerRadius=".5dp"
+                app:spark_lineWidth="4dp"
+                />
+
+            <com.pipit.agc.views.CalendarWeekViewSwipeable
+                android:id="@+id/calendar_component"
+                android:layout_width="match_parent"
+                android:layout_below="@id/sparkview"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
